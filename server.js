@@ -17,6 +17,6 @@ app.all('/*', function(req, res) {
     res.sendFile(path.join(__dirname, 'public/index.html'))
 })
 
-app.listen(PORT, function() {
+app.listen(process.env.Port || 3000, function() {
     console.log('Server running on ' + PORT)
 })
