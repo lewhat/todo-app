@@ -1,5 +1,5 @@
 var mongoose = require('mongoose')
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/todo-app')
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/todos')
 
 var Todo = mongoose.model('Todo', {
     task: String,
