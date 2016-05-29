@@ -3,12 +3,12 @@ var server = deployd({
 	port: process.env.PORT || 5000,
 	env: 'production',
 	db: {
-		host:'ds019053.mlab.com',
-		port:19053,
-		name:'heroku_3szsjwjc',
+		host:'ds019063.mlab.com',
+		port:19063,
+		name:'heroku_qh6p6vkr',
 		credentials: {
-			username:'heroku_3szsjwjc',
-			password:'g7rorn4v63ip5v15i1qq49d3fs'
+			username:'heroku_qh6p6vkr',
+			password:'f09s2nlms27p5cdkpuhjh0bcmc'
 		}
 	}
 
