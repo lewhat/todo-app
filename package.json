@@ -5,7 +5,9 @@
   "main": "server.js",
   "dependencies": {
     "deployd": "^0.8.8",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "mongoose": "^4.5.7",
+    "body-parser": "^1.15.2"
   },
   "dependencies":{
     "deployd":"*"
@@ -23,6 +25,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lewhat/todo-app/issues"
-  },
-  "homepage": "https://github.com/lewhat/todo-app#readme"
+  }
 }
